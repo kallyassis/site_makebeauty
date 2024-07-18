@@ -12,6 +12,10 @@ form button {
     font-weight: normal;
 }
 
+section h2 {
+    font-weight: bold;
+}
+
 body, input, textarea {
     font-family: "Roboto", sans-serif;
 }
@@ -20,6 +24,10 @@ header {
     padding: 16px 0;
     background-color:#d40bb9;
     color: #011b21;
+}
+
+header div h1 {
+    font-size: 38px;
 }
 
 header nav li {
@@ -95,7 +103,7 @@ section p {
 
 .contact-methods {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 form input,
